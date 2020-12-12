@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Setting the viewport to make your website look good on all devices:-->
+
+
+    <meta charset="utf-8">
+
+    <title>
+        New web
+    </title>
+    <style type="style.css"></style>
+    <link rel="stylesheet" href="style.css" />
+
+
+</head>
+
+<body>
+
+    <h1>
+        New web &hearts;
+    </h1>
+    <div class="left">
+        <address>
+            address:syria<br>
+            Email:<br>
+            phone:
+
+        </address>
+    </div>
+
+
+    <br>
+    <div class="one">
+        <h3>One</h3>
+        <p>this is one</p>
+    </div>
+    <div class="one">
+        <h3>Two</h3>
+        <p>this is two</p>
+    </div>
+    <object data="pika.png" width="100px"></object>
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "Hello JavaScript!";
+        }
+    </script>
+    <p id="demo">A Paragraph</p>
+    <button type="button" onclick="myFunction()">Try it</button>
+
+    <br>
+
+    <audio controls>
+        <source src="sor.m4a">
+
+    </audio>
+
+    <br>
+    <article class="all-browsers">
+
+        <article class="browser">
+            <h2>Google</h2>
+            <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most
+                popular
+                web browser today!</p>
+        </article>
+
+        <article class="browser">
+            <h2>Mozilla</h2>
+            <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most
+                popular web browser since January, 2018.</p>
+        </article>
+
+        <article class="browser">
+            <h2>Micro</h2>
+            <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced
+                Internet Explorer.</p>
+        </article>
+
+    </article>
+    <br>
+    <img id="myImage" src="img/pic_bulboff.gif" width="100" height="180">
+
+    <p>
+
+        <button type="button" onclick="light(1)">Light On</button>
+        <button type="button" onclick="light(0)">Light Off</button>
+    </p>
+
+
+    <p><a href="tags/tag_base.asp">HTML base tag</a>
+        Notice that the link opens in a new window, even if it has no target="_blank" attribute. This is because the
+        target attribute of the base element is set to "_blank".</p>
+
+    <p>this is my <span class="note">first</span> page</p>
+
+    <button class="btn info">Info</button>
+    <button class="btn danger">Danger</button>
+    <button class="btn default">Default</button>
+
+
+    <hr>
+
+    <video width="500" controls>
+        <!--autoplayبدل الكونترول تجعله يشتغل تلقائي-->
+        <source src="mov_bbb.mp4" type="video/mp4">
+        <source src="mov_bbb.ogg" type="video/ogg">
+
+    </video>
+    <p>
+        Video courtesy of
+        <a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.
+    </p>
+    <br>
+    <a href="Google.com" target="_blank">this is link</a>
+
+    <p><a href="#C2">Jump to chapter 2</a></p>
+    <p><a href="#C3">Jump to chapter
+            3 </a></p>
+    <p>this is first <abbr title="world health organization">WHO</abbr> </p>
+    <p><a href="https://www.w3schools.com/">visit w3schools.com</a></p>
+    <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+    <p>The image below is a link. Try to click on it.</p>
+
+    <a
+        href=https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cute-small-tree-house-for-kids-on-backyard-royalty-free-image-177436391-1567115419.jpg?crop=1xw:0.99859xh;center,top&resize=480:*>
+        <img src="img/cute home.jpg" alt="nice home" width="250px" height="350px"> </a>
+
+
+    <p><a href="mailto:halosh.ma1998@gmail.com">Send email</a></p>
+    <!--mailto use for link email-->
+
+    <p>Click the button to go to the HTML tutorial.</p>
+
+    <button onclick="document.location='www.google.com'">HTML Tutorial</button>
+    <div class="right">
+        <aside>
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </aside>
+    </div>
+    <h2>Chapter 1</h2>
+    <p>This <span>one</span>chapter <span>e</span>xplains ba bla bla</p>
+
+    <h2 id="C2">Chapter 2</h2>
+    <p>This chapter explains ba bla bla</p>
+
+    <h2 id="C3">Chapter 3</h2>
+    <p>This chapter explains ba bla bla</p>
+
+
+
+    <section>
+
+        <div class="footer">
+            <h2>London</h2>
+            <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a
+                metropolitan area of over 13 million inhabitants.</p>
+            <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going
+                back to
+                its founding by the Romans, who named it Londinium.</p>
+            <p style="font-size: 50px; text-align: center">&#128525;</p>
+
+        </div>
+    </section>
+
+    <p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
+    <!-- used to define keyboard input-->
+
+    <code>
+        x = 5;
+        y = 6;
+        z = x + y;
+        </code>
+    <hr>
+    <pre>
+            <code>
+            x = 5;
+            y = 6;
+            z = x + y;
+            </code>
+            </pre>
+
+
+    <script>
+        function light(sw) {
+            var pic;
+            if (sw == 0) {
+                pic = "img/pic_bulboff.gif"
+            } else {
+                pic = "img/pic_bulbon.gif"
+            }
+            document.getElementById('myImage').src = pic
+        }
+
+    </script>
+
+    <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and
+        <var>h</var> is
+        the vertical height.</p>
+    <!--var element  is used to defines a variable in programming 
+    or in a mathematical expression. The content 
+    inside is typically displayed in italic.-->
+
+    <script src="myscript.js"></script>
+    <!--Loading JavaScript in HTML-->
+
+    <p id="Demo">This is paragraph 1.</p>
+    <script>
+        document.getElementById("demo").innerHTML = "HELLO.";
+    </script>
+    <P class="down"> &copy;
+    </P>
+
+
+    <form>
+        <label for="names">Choose a name:</label>
+        <select name="names" id="names">
+            <!--size="4"-->
+            <option value="john">John</option>
+            <option value="bess">Bess</option>
+
+        </select>
+        <input type="submit">
+    </form>
+
+    <form>
+        <input type="range">
+
+    </form>
+
+
+
+    <h2>Checkboxes</h2>
+    <p>The <strong>input type="checkbox"</strong> defines a checkbox:</p>
+    <form action="/action_page.php">
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <br>
+        <input type="submit" value="submit">
+    </form>
+
+    <h3>Text input fields
+    </h3>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+
+    <br>
+
+    <fieldset>
+        <legend>
+            <h3>Text input fields</h3>
+        </legend>
+
+        <form>
+            <label for="username">User name:</label><br>
+            <input type="text" id="use" name="use" value="jo" readonly><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="pwd" name="pwd">
+            <br>
+            <br>
+            <input type="submit" value="submit">
+
+        </form>
+    </fieldset>
+
+    <!--🗻	#128507;
+🗼	#128508;
+🗽	#128509;
+🗾	#128510;
+🗿	#128511;
+😀	#128512;
+😁	#128513;
+😂	#128514;
+😃	#128515;
+😄	#128516;
+😅	#128517;-->
+
+    <h2>Textarea</h2>
+
+    <form action="/action_page.php">
+        <textarea name="message" rows="5" cols="10">The cat was playing in the garden.</textarea>
+        <br><br>
+        <input type="submit">
+    </form>
+    <br>
+    <p class="pink">A thick ridge pink outline</p>
+
+    <samp>bye bye</samp>
+
+</body>
+
+</html>

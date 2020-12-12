@@ -1,0 +1,135 @@
+body
+{
+background-color: lightgray;
+box-sizing: border-box;
+    }
+    h1{
+        text-align: center;
+        padding: 30px;
+        color: gray;
+        margin: 50px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    a:link, a:visited {
+      background-color:rgb(40, 152, 189);
+      color: white;
+      padding:5px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+
+    }
+    
+    a:hover, a:active {
+      background-color: red;
+     }
+
+  span{
+    color: blueviolet;
+    font-weight: bold;
+  }
+  .city{
+    background-color: cyan;
+  }
+  .note
+  {
+    color: blue;
+  }
+img{
+background-color: white;
+
+}
+.left{
+  background-color:#e5e5e5;
+  width:20%;
+  padding:10px;
+  text-align:left;
+  color: black;
+  margin-top: auto;
+margin-bottom: 10px;
+border-left: 7px solid dodgerblue;
+/* float: left; */
+}
+.footer{
+  background-color: gray;
+  padding: 10px;
+  color: black;
+  display: block;
+  clear: both;
+  
+}
+.right{
+  background-color:#e5e5e5;
+  width:20%;
+  padding:10px;
+  float:right;
+  margin: 10px;
+  text-align:left;
+  color: black;
+}
+.one{
+  /* float: left; */
+  background: #eee;
+  margin: 1%;
+  padding: 1%;
+  margin: 10px;
+  max-width: 100px;
+}
+
+
+.all-browsers > h1, .browser {
+  margin: 10px;
+  padding: 5px;
+  
+}
+
+.browser {
+  background: white;
+}
+
+.browser > h2, p {
+  margin: 4px;
+  font-size: 90%;
+}
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color: grey;
+  max-width: 400px;
+}
+.btn{
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+}
+.info{
+  background-color: teal;
+
+}
+.info:hover{
+  background-color: blue;
+}
+
+.danger{
+background-color: coral;
+border: none;
+}
+.danger:hover{
+background-color: brown;
+}
+
+.default{
+background-color: darkorchid;
+}
+.default:hover{
+background-color: darkviolet;
+}
+.down{
+  text-align: center;
+}
+.pink{
+  outline: thick ridge pink;
+  max-width: 100px;
+  text-align: center;
+}
